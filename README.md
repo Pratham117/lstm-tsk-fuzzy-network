@@ -17,5 +17,19 @@ The project evaluates two types of MACD signals:
 - **Vanilla MACD (vMACD)**: Based on historical closing prices (standard approach)
 - **Forecasted MACD (fMACD)**: Computed on 13-day-ahead predicted prices (reduces lag)
 
+## Why LSTM-TSK?
+
+This architecture uniquely combines:
+
+1. LSTMs: For temporal modeling
+
+2. TSK Fuzzy Rules: For rule-based interpretability
+
+3. Gaussian Membership Functions: Learnable partitions of input space
+
+4. Infinite Sliding Planes: Dynamically learned surfaces that fit each fuzzy rule
+
+Thus, it achieves both forecast accuracy and model transparency, which is valuable for algorithmic trading and risk analysis.
+
 
 
