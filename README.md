@@ -15,7 +15,7 @@ This repository contains the core components of my Final Year Project on interpr
 The project evaluates two types of MACD signals:
 
 - **Vanilla MACD (vMACD)**: Based on historical closing prices (standard approach)
-- **Forecasted MACD (fMACD)**: Computed on 15-day-ahead predicted prices (reduces lag)
+- **Forecasted MACD (fMACD)**: Computed on 13-day-ahead predicted prices (reduces lag)
 
 
 
