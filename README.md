@@ -5,10 +5,17 @@ This repository contains the core components of my Final Year Project on interpr
 ## Overview
 
 - **Model**: LSTM-TSK fuzzy neural network with Gaussian membership functions and rule-based inference
-- **Goal**: Predict 15-day-ahead stock prices and generate interpretable trading signals
-- **Data Source**: Real-time historical stock data from Yahoo Finance via the `yfinance` API
-- **Implementation**: Fully implemented in Google Colab, leveraging TensorFlow, scikit-learn, and yfinance
+- **Goal**: Predict 13-day-ahead stock prices and generate interpretable trading signals
+- **Data Source**: Historical stock data from Yahoo Finance via the `yfinance` API
+- **Implementation**: Implemented using PyTorch, scikit-learn, and yfinance
 - **Interpretability**: Fuzzy rules provide insight into model decisions using dynamic sliding planes
 
-## Repository Structure
+## MACD Variants
+
+The project evaluates two types of MACD signals:
+
+- **Vanilla MACD (vMACD)**: Based on historical closing prices (standard approach)
+- **Forecasted MACD (fMACD)**: Computed on 15-day-ahead predicted prices (reduces lag)
+
+
 
