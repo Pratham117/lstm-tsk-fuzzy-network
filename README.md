@@ -31,5 +31,14 @@ This architecture uniquely combines:
 
 Thus, it achieves both forecast accuracy and model transparency, which is valuable for algorithmic trading and risk analysis.
 
+## Citation
 
+If this project contributes to your research or work, please cite:
 
+@misc{Manoj2025fyp,
+  title        = {Interpretable AI for Finance: LSTM-TSK Fuzzy Networks in Stock Prediction},
+  author       = {Pratham Manoj},
+  year         = {2025},
+  howpublished = {Final Year Undergraduate Project, Nanyang Technological University},
+  url          = {https://hdl.handle.net/10356/184340}
+}
